@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9200.16.0303.2316                                -->
+<workbook source-platform='win' version='9.2' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (消费因素前三名)' inline='true' name='excel-direct.0jxkc4100lbddn1gdkuwi19ongoi' version='9.2'>
+      <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:\Academic Work\大数据比赛\消费因素前三名.xlsx' interpretationMode='0' password='' server='' username='' validate='no'>
+        <relation name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:J250:no:A1:J250:0' header='yes' outcome='2'>
+            <column datatype='string' name='质量' ordinal='0' />
+            <column datatype='string' name='价格' ordinal='1' />
+            <column datatype='string' name='外观' ordinal='2' />
+            <column datatype='string' name='实用性' ordinal='3' />
+            <column datatype='string' name='品牌' ordinal='4' />
+            <column datatype='string' name='时尚潮流' ordinal='5' />
+            <column datatype='string' name='服务' ordinal='6' />
+            <column datatype='string' name='他人评价和意见' ordinal='7' />
+            <column datatype='string' name='心情' ordinal='8' />
+            <column datatype='string' name='厂商信誉' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>质量</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[质量]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>质量</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>价格</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[价格]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>价格</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>外观</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[外观]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>外观</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>实用性</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[实用性]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>实用性</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>品牌</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[品牌]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>品牌</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>时尚潮流</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[时尚潮流]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>时尚潮流</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>服务</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[服务]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>服务</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>他人评价和意见</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[他人评价和意见]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>他人评价和意见</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>心情</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[心情]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>心情</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>厂商信誉</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[厂商信誉]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>厂商信誉</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J250:no:A1:J250:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.626429' measure-ordering='alphabetic' measure-percentage='0.373571' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='工作表 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (消费因素前三名)' name='excel-direct.0jxkc4100lbddn1gdkuwi19ongoi' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.0jxkc4100lbddn1gdkuwi19ongoi'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Number of Records]' derivation='Count' name='[cnt:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[他人评价和意见]' derivation='None' name='[none:他人评价和意见:nk]' pivot='key' type='nominal' />
+            <column-instance column='[价格]' derivation='None' name='[none:价格:nk]' pivot='key' type='nominal' />
+            <column-instance column='[厂商信誉]' derivation='None' name='[none:厂商信誉:nk]' pivot='key' type='nominal' />
+            <column-instance column='[品牌]' derivation='None' name='[none:品牌:nk]' pivot='key' type='nominal' />
+            <column-instance column='[外观]' derivation='None' name='[none:外观:nk]' pivot='key' type='nominal' />
+            <column-instance column='[实用性]' derivation='None' name='[none:实用性:nk]' pivot='key' type='nominal' />
+            <column-instance column='[心情]' derivation='None' name='[none:心情:nk]' pivot='key' type='nominal' />
+            <column-instance column='[时尚潮流]' derivation='None' name='[none:时尚潮流:nk]' pivot='key' type='nominal' />
+            <column-instance column='[服务]' derivation='None' name='[none:服务:nk]' pivot='key' type='nominal' />
+            <column-instance column='[质量]' derivation='None' name='[none:质量:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[他人评价和意见]' role='dimension' type='nominal' />
+            <column datatype='string' name='[价格]' role='dimension' type='nominal' />
+            <column datatype='string' name='[厂商信誉]' role='dimension' type='nominal' />
+            <column datatype='string' name='[品牌]' role='dimension' type='nominal' />
+            <column datatype='string' name='[外观]' role='dimension' type='nominal' />
+            <column datatype='string' name='[实用性]' role='dimension' type='nominal' />
+            <column datatype='string' name='[心情]' role='dimension' type='nominal' />
+            <column datatype='string' name='[时尚潮流]' role='dimension' type='nominal' />
+            <column datatype='string' name='[服务]' role='dimension' type='nominal' />
+            <column datatype='string' name='[质量]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[cnt:Number of Records:qk]' included-values='in-range'>
+            <min>3</min>
+            <max>36</max>
+          </filter>
+          <slices>
+            <column>[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[cnt:Number of Records:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[sum:Number of Records:qk]' palette='tableau-orange' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[sum:Number of Records:qk]' />
+              <color column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[sum:Number of Records:qk]' />
+              <text column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:价格:nk]' />
+              <text column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:厂商信誉:nk]' />
+              <text column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:品牌:nk]' />
+              <text column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:外观:nk]' />
+              <text column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:实用性:nk]' />
+              <text column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:心情:nk]' />
+              <text column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:时尚潮流:nk]' />
+              <text column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:服务:nk]' />
+              <text column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:质量:nk]' />
+              <text column='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:他人评价和意见:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-weight' value='bold' />
+                <format attr='color' value='#ffffff' />
+                <format attr='font-family' value='黑体' />
+                <format attr='font-size' value='12' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='32'>
+    <window class='worksheet' maximized='true' name='工作表 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[sum:Number of Records:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:他人评价和意见:nk]</field>
+            <field>[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:价格:nk]</field>
+            <field>[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:厂商信誉:nk]</field>
+            <field>[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:品牌:nk]</field>
+            <field>[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:外观:nk]</field>
+            <field>[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:实用性:nk]</field>
+            <field>[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:心情:nk]</field>
+            <field>[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:时尚潮流:nk]</field>
+            <field>[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:服务:nk]</field>
+            <field>[excel-direct.0jxkc4100lbddn1gdkuwi19ongoi].[none:质量:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='工作表 1' width='192'>
+      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
+      0YsAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

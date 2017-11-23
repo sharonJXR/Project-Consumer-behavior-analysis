@@ -1,0 +1,2814 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9200.16.0303.2316                                -->
+<workbook source-platform='win' version='9.2' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (数字图表) (2)' inline='true' name='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制)' version='9.2'>
+      <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:\Academic Work\大数据比赛\数字图表.xls' interpretationMode='0' password='' server='' username='' validate='no'>
+        <relation name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:W104:no:A1:W104:0' header='yes' outcome='2'>
+            <column datatype='string' name='性别' ordinal='0' />
+            <column datatype='string' name='年级' ordinal='1' />
+            <column datatype='string' name='专业' ordinal='2' />
+            <column datatype='string' name='月均总消费' ordinal='3' />
+            <column datatype='string' name='来源地' ordinal='4' />
+            <column datatype='string' name='月均基本生活消费' ordinal='5' />
+            <column datatype='string' name='月均休闲娱乐消费' ordinal='6' />
+            <column datatype='string' name='月均恋爱消费' ordinal='7' />
+            <column datatype='string' name='月均学习消费' ordinal='8' />
+            <column datatype='string' name='月均形象类消费' ordinal='9' />
+            <column datatype='string' name='后悔程度' ordinal='10' />
+            <column datatype='real' name='自我消费评分' ordinal='11' />
+            <column datatype='string' name='是否购买喜欢却贵的商品' ordinal='12' />
+            <column datatype='integer' name='质量' ordinal='13' />
+            <column datatype='integer' name='价格' ordinal='14' />
+            <column datatype='integer' name='外观' ordinal='15' />
+            <column datatype='integer' name='实用性' ordinal='16' />
+            <column datatype='integer' name='品牌' ordinal='17' />
+            <column datatype='integer' name='时尚潮流' ordinal='18' />
+            <column datatype='integer' name='服务' ordinal='19' />
+            <column datatype='integer' name='厂商信誉' ordinal='20' />
+            <column datatype='string' name='他人评价和意见' ordinal='21' />
+            <column datatype='integer' name='心情' ordinal='22' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>性别</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[性别]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>性别</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>年级</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[年级]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>年级</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>专业</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[专业]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>专业</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均总消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均总消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均总消费</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>来源地</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[来源地]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>来源地</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均基本生活消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均基本生活消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均基本生活消费</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均休闲娱乐消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均休闲娱乐消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均休闲娱乐消费</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均恋爱消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均恋爱消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均恋爱消费</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均学习消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均学习消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均学习消费</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均形象类消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均形象类消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均形象类消费</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>后悔程度</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[后悔程度]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>后悔程度</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>自我消费评分</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[自我消费评分]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>自我消费评分</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>是否购买喜欢却贵的商品</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[是否购买喜欢却贵的商品]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>是否购买喜欢却贵的商品</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>质量</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[质量]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>质量</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>价格</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[价格]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>价格</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>外观</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[外观]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>外观</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>实用性</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[实用性]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>实用性</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>品牌</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[品牌]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>品牌</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>时尚潮流</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[时尚潮流]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>时尚潮流</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>服务</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[服务]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>服务</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>厂商信誉</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[厂商信誉]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>厂商信誉</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>他人评价和意见</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[他人评价和意见]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>他人评价和意见</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>心情</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[心情]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>心情</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:W104:no:A1:W104:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='分区第一名' datatype='boolean' name='[Calculation_411516429141676037]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='RANK(COUNT([Number of Records]))=1'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='real' hidden='true' name='[F21]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F5]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[专业 (组)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[专业]'>
+          <bin value='&quot;法学类&quot;'>
+            <value>&quot;法学类&quot;</value>
+            <value>&quot;管理类&quot;</value>
+            <value>&quot;经济类&quot;</value>
+            <value>&quot;师范类&quot;</value>
+            <value>&quot;文化传播和文学类&quot;</value>
+            <value>&quot;艺术类&quot;</value>
+            <value>&quot;语言类&quot;</value>
+          </bin>
+          <bin value='&quot;工科类&quot;'>
+            <value>&quot;工科类&quot;</value>
+            <value>&quot;理学类（自然科学）&quot;</value>
+            <value>&quot;农学类&quot;</value>
+            <value>&quot;医学类&quot;</value>
+          </bin>
+        </calculation>
+        <aliases>
+          <alias key='&quot;法学类&quot;' value='文史类' />
+          <alias key='&quot;工科类&quot;' value='理工类' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[专业]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[价格]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[厂商信誉]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[品牌]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[外观]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[实用性]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[年级]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[心情]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[时尚潮流]' role='dimension' type='ordinal' />
+      <column caption='冲动消费' datatype='string' name='[是否购买喜欢却贵的商品]' role='dimension' type='nominal' />
+      <column aggregation='CountD' datatype='string' name='[月均休闲娱乐消费]' role='dimension' type='nominal' />
+      <column datatype='string' name='[月均总消费]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[服务]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[质量]' role='dimension' type='ordinal' />
+      <column-instance column='[年级]' derivation='None' name='[none:年级:nk]' pivot='key' type='nominal' />
+      <column-instance column='[月均休闲娱乐消费]' derivation='None' name='[none:月均休闲娱乐消费:nk]' pivot='key' type='nominal' />
+      <column-instance column='[月均总消费]' derivation='None' name='[none:月均总消费:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.644823' measure-ordering='alphabetic' measure-percentage='0.355177' show-structure='true' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:月均总消费:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;3000以上&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;2000—2500&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;1000—1500&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;1000以下&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;1500—2000&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;2500—3000&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:年级:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;大一&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;大三&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;大四及以上&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;大二&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:月均休闲娱乐消费:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;100—200&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;200—400&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;800以上&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;600—800&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;400—600&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;100以下&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[专业 (组)]' type='palette'>
+            <map to='#1c70ae'>
+              <bucket>&quot;工科类&quot;</bucket>
+            </map>
+            <map to='#ffb6b0'>
+              <bucket>&quot;法学类&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='Sheet1 (数字图表)' inline='true' name='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja' version='9.2'>
+      <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:\Academic Work\大数据比赛\352份问卷文字版.xls' interpretationMode='0' password='' server='' username='' validate='no'>
+        <relation name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:X353:no:A1:X353:0' header='yes' outcome='2'>
+            <column datatype='string' name='性别' ordinal='0' />
+            <column datatype='string' name='年级' ordinal='1' />
+            <column datatype='string' name='专业' ordinal='2' />
+            <column datatype='string' name='月均总消费' ordinal='3' />
+            <column datatype='string' name='来源地' ordinal='4' />
+            <column datatype='string' name='月均基本生活消费' ordinal='5' />
+            <column datatype='string' name='月均休闲娱乐消费' ordinal='6' />
+            <column datatype='string' name='月均恋爱消费' ordinal='7' />
+            <column datatype='string' name='月均学习消费' ordinal='8' />
+            <column datatype='string' name='月均形象类消费' ordinal='9' />
+            <column datatype='string' name='后悔程度' ordinal='10' />
+            <column datatype='real' name='自我消费评分' ordinal='11' />
+            <column datatype='string' name='冲动消费' ordinal='12' />
+            <column datatype='string' name='是否记账' ordinal='13' />
+            <column datatype='integer' name='质量' ordinal='14' />
+            <column datatype='integer' name='价格' ordinal='15' />
+            <column datatype='integer' name='外观' ordinal='16' />
+            <column datatype='integer' name='实用性' ordinal='17' />
+            <column datatype='integer' name='品牌' ordinal='18' />
+            <column datatype='integer' name='时尚潮流' ordinal='19' />
+            <column datatype='integer' name='服务' ordinal='20' />
+            <column datatype='string' name='他人评价和意见' ordinal='21' />
+            <column datatype='integer' name='心情' ordinal='22' />
+            <column datatype='integer' name='厂商信誉' ordinal='23' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>性别</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[性别]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>性别</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>年级</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[年级]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>年级</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>专业</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[专业]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>专业</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均总消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均总消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均总消费</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>来源地</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[来源地]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>来源地</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均基本生活消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均基本生活消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均基本生活消费</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均休闲娱乐消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均休闲娱乐消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均休闲娱乐消费</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均恋爱消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均恋爱消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均恋爱消费</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均学习消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均学习消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均学习消费</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均形象类消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均形象类消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均形象类消费</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>后悔程度</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[后悔程度]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>后悔程度</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>自我消费评分</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[自我消费评分]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>自我消费评分</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>冲动消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[冲动消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>冲动消费</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>是否记账</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[是否记账]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>是否记账</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>质量</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[质量]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>质量</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>价格</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[价格]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>价格</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>外观</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[外观]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>外观</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>实用性</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[实用性]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>实用性</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>品牌</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[品牌]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>品牌</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>时尚潮流</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[时尚潮流]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>时尚潮流</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>服务</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[服务]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>服务</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>他人评价和意见</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[他人评价和意见]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>他人评价和意见</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>心情</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[心情]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>心情</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>厂商信誉</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[厂商信誉]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>厂商信誉</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:X353:no:A1:X353:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='分区第一名' datatype='boolean' name='[Calculation_411516429141676037]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='RANK(COUNT([Number of Records]))=1'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='real' hidden='true' name='[F21]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F5]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[专业 (组)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[专业]'>
+          <bin value='&quot;法学类&quot;'>
+            <value>&quot;法学类&quot;</value>
+            <value>&quot;管理类&quot;</value>
+            <value>&quot;经济类&quot;</value>
+            <value>&quot;理学类（自然科学）&quot;</value>
+            <value>&quot;农学类&quot;</value>
+            <value>&quot;师范类&quot;</value>
+            <value>&quot;文化传播和文学类&quot;</value>
+            <value>&quot;医学类&quot;</value>
+            <value>&quot;艺术类&quot;</value>
+            <value>&quot;语言类&quot;</value>
+            <value>&quot;政治学类&quot;</value>
+          </bin>
+        </calculation>
+        <aliases>
+          <alias key='&quot;法学类&quot;' value='非工科' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[专业]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[价格]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[厂商信誉]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[品牌]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[外观]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[实用性]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[年级]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;1&quot;' value='大一' />
+          <alias key='&quot;2&quot;' value='大二' />
+          <alias key='&quot;3&quot;' value='大三' />
+          <alias key='&quot;4&quot;' value='大四' />
+        </aliases>
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[心情]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[性别]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[时尚潮流]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[是否记账 (组)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[是否记账]'>
+          <bin value='&quot;不记账&quot;'>
+            <value>&quot;不记账&quot;</value>
+            <value>&quot;想起来就记一下&quot;</value>
+          </bin>
+        </calculation>
+        <aliases>
+          <alias key='&quot;不记账&quot;' value='较少或者不记账' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[是否记账]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;记账&quot;' value='坚持记账' />
+        </aliases>
+      </column>
+      <column aggregation='CountD' datatype='string' name='[月均休闲娱乐消费]' role='dimension' type='nominal' />
+      <column datatype='string' name='[月均基本生活消费]' role='dimension' type='nominal' />
+      <column datatype='string' name='[月均总消费]' role='dimension' type='nominal' />
+      <column datatype='string' name='[月均恋爱消费]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[服务]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[质量]' role='dimension' type='ordinal' />
+      <column-instance column='[年级]' derivation='None' name='[none:年级:nk]' pivot='key' type='nominal' />
+      <column-instance column='[性别]' derivation='None' name='[none:性别:nk]' pivot='key' type='nominal' />
+      <column-instance column='[是否记账]' derivation='None' name='[none:是否记账:nk]' pivot='key' type='nominal' />
+      <column-instance column='[月均休闲娱乐消费]' derivation='None' name='[none:月均休闲娱乐消费:nk]' pivot='key' type='nominal' />
+      <column-instance column='[月均基本生活消费]' derivation='None' name='[none:月均基本生活消费:nk]' pivot='key' type='nominal' />
+      <column-instance column='[月均总消费]' derivation='None' name='[none:月均总消费:nk]' pivot='key' type='nominal' />
+      <column-instance column='[月均恋爱消费]' derivation='None' name='[none:月均恋爱消费:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[排除(年级,月均总消费)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:年级:nk]' />
+          <groupfilter function='level-members' level='[none:月均总消费:nk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[排除(年级,月均恋爱消费)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:年级:nk]' />
+          <groupfilter function='level-members' level='[none:月均恋爱消费:nk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[排除(月均基本生活消费,月均总消费)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:月均基本生活消费:nk]' />
+          <groupfilter function='level-members' level='[none:月均总消费:nk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[排除(月均总消费,月均恋爱消费)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:月均总消费:nk]' />
+          <groupfilter function='level-members' level='[none:月均恋爱消费:nk]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.806495' measure-ordering='alphabetic' measure-percentage='0.193505' show-structure='true' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:月均总消费:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;3000以上&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;2000—2500&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;1000—1500&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;1000以下&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;1500—2000&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;2500—3000&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:年级:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;大一&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;大三&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;大四及以上&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;大二&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:月均休闲娱乐消费:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;100—200&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;200—400&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;800以上&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;600—800&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;400—600&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;100以下&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:是否记账:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;记账&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;不记账&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;想起来就记一下&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[专业 (组)]' type='palette'>
+            <map to='#1c70ae'>
+              <bucket>&quot;工科类&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;政治学类&quot;</bucket>
+            </map>
+            <map to='#ffb6b0'>
+              <bucket>&quot;法学类&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:性别:nk]' type='palette'>
+            <map to='#17becf'>
+              <bucket>&quot;男&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;女&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='Sheet1 (数字图表) (3)' inline='true' name='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)' version='9.2'>
+      <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:\Academic Work\大数据比赛\352份问卷文字版.xls' interpretationMode='0' password='' server='' username='' validate='no'>
+        <relation name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:X353:no:A1:X353:0' header='yes' outcome='2'>
+            <column datatype='string' name='性别' ordinal='0' />
+            <column datatype='string' name='年级' ordinal='1' />
+            <column datatype='string' name='专业' ordinal='2' />
+            <column datatype='string' name='月均总消费' ordinal='3' />
+            <column datatype='string' name='来源地' ordinal='4' />
+            <column datatype='string' name='月均基本生活消费' ordinal='5' />
+            <column datatype='string' name='月均休闲娱乐消费' ordinal='6' />
+            <column datatype='string' name='月均恋爱消费' ordinal='7' />
+            <column datatype='string' name='月均学习消费' ordinal='8' />
+            <column datatype='string' name='月均形象类消费' ordinal='9' />
+            <column datatype='string' name='后悔程度' ordinal='10' />
+            <column datatype='real' name='自我消费评分' ordinal='11' />
+            <column datatype='string' name='冲动消费' ordinal='12' />
+            <column datatype='string' name='是否记账' ordinal='13' />
+            <column datatype='integer' name='质量' ordinal='14' />
+            <column datatype='integer' name='价格' ordinal='15' />
+            <column datatype='integer' name='外观' ordinal='16' />
+            <column datatype='integer' name='实用性' ordinal='17' />
+            <column datatype='integer' name='品牌' ordinal='18' />
+            <column datatype='integer' name='时尚潮流' ordinal='19' />
+            <column datatype='integer' name='服务' ordinal='20' />
+            <column datatype='string' name='他人评价和意见' ordinal='21' />
+            <column datatype='integer' name='心情' ordinal='22' />
+            <column datatype='integer' name='厂商信誉' ordinal='23' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>性别</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[性别]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>性别</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>年级</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[年级]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>年级</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>专业</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[专业]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>专业</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均总消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均总消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均总消费</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>来源地</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[来源地]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>来源地</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均基本生活消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均基本生活消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均基本生活消费</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均休闲娱乐消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均休闲娱乐消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均休闲娱乐消费</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均恋爱消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均恋爱消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均恋爱消费</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均学习消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均学习消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均学习消费</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月均形象类消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[月均形象类消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>月均形象类消费</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>后悔程度</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[后悔程度]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>后悔程度</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>自我消费评分</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[自我消费评分]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>自我消费评分</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>冲动消费</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[冲动消费]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>冲动消费</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>是否记账</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[是否记账]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>是否记账</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>质量</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[质量]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>质量</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>价格</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[价格]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>价格</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>外观</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[外观]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>外观</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>实用性</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[实用性]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>实用性</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>品牌</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[品牌]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>品牌</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>时尚潮流</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[时尚潮流]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>时尚潮流</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>服务</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[服务]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>服务</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>他人评价和意见</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[他人评价和意见]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>他人评价和意见</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>心情</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[心情]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>心情</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>厂商信誉</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[厂商信誉]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>厂商信誉</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:X353:no:A1:X353:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='分区第一名' datatype='boolean' name='[Calculation_411516429141676037]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='RANK(COUNT([Number of Records]))=1'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='real' hidden='true' name='[F21]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F5]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[专业 (组)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[专业]'>
+          <bin value='&quot;工科类&quot;'>
+            <value>&quot;工科类&quot;</value>
+            <value>&quot;管理类&quot;</value>
+            <value>&quot;经济类&quot;</value>
+            <value>&quot;理学类（自然科学）&quot;</value>
+            <value>&quot;农学类&quot;</value>
+            <value>&quot;师范类&quot;</value>
+            <value>&quot;文化传播和文学类&quot;</value>
+            <value>&quot;医学类&quot;</value>
+            <value>&quot;艺术类&quot;</value>
+            <value>&quot;语言类&quot;</value>
+            <value>&quot;政治学类&quot;</value>
+          </bin>
+        </calculation>
+        <aliases>
+          <alias key='&quot;工科类&quot;' value='杀杀杀' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[专业]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[价格]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[厂商信誉]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[品牌]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[外观]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[实用性]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[年级]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;1&quot;' value='大一' />
+          <alias key='&quot;2&quot;' value='大二' />
+          <alias key='&quot;3&quot;' value='大三' />
+          <alias key='&quot;4&quot;' value='大四' />
+        </aliases>
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[心情]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[性别]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[时尚潮流]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[是否记账 (组)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[是否记账]'>
+          <bin value='&quot;不记账&quot;'>
+            <value>&quot;不记账&quot;</value>
+            <value>&quot;想起来就记一下&quot;</value>
+          </bin>
+        </calculation>
+        <aliases>
+          <alias key='&quot;不记账&quot;' value='较少或者不记账' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[是否记账]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;记账&quot;' value='坚持记账' />
+        </aliases>
+      </column>
+      <column aggregation='CountD' datatype='string' name='[月均休闲娱乐消费]' role='dimension' type='nominal' />
+      <column datatype='string' name='[月均总消费]' role='dimension' type='nominal' />
+      <column datatype='string' name='[月均恋爱消费]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[服务]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[质量]' role='dimension' type='ordinal' />
+      <column-instance column='[年级]' derivation='None' name='[none:年级:nk]' pivot='key' type='nominal' />
+      <column-instance column='[性别]' derivation='None' name='[none:性别:nk]' pivot='key' type='nominal' />
+      <column-instance column='[是否记账]' derivation='None' name='[none:是否记账:nk]' pivot='key' type='nominal' />
+      <column-instance column='[月均休闲娱乐消费]' derivation='None' name='[none:月均休闲娱乐消费:nk]' pivot='key' type='nominal' />
+      <column-instance column='[月均总消费]' derivation='None' name='[none:月均总消费:nk]' pivot='key' type='nominal' />
+      <column-instance column='[月均恋爱消费]' derivation='None' name='[none:月均恋爱消费:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[排除(年级,月均总消费)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:年级:nk]' />
+          <groupfilter function='level-members' level='[none:月均总消费:nk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[排除(年级,月均恋爱消费)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:年级:nk]' />
+          <groupfilter function='level-members' level='[none:月均恋爱消费:nk]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.782138' measure-ordering='alphabetic' measure-percentage='0.217862' show-structure='true' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:月均总消费:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;3000以上&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;2000—2500&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;1000—1500&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;1000以下&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;1500—2000&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;2500—3000&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:年级:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;大一&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;大三&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;大四及以上&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;大二&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:月均休闲娱乐消费:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;100—200&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;200—400&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;800以上&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;600—800&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;400—600&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;100以下&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[专业 (组)]' type='palette'>
+            <map to='#1c70ae'>
+              <bucket>&quot;工科类&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;政治学类&quot;</bucket>
+            </map>
+            <map to='#ffb6b0'>
+              <bucket>&quot;法学类&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:性别:nk]' type='palette'>
+            <map to='#17becf'>
+              <bucket>&quot;男&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;女&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:是否记账:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;记账&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;不记账&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;想起来就记一下&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='工作表 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (数字图表)' name='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja'>
+            <column caption='分区第一名' datatype='boolean' name='[Calculation_411516429141676037]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='RANK(COUNT([Number of Records]))=1'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[月均总消费]' derivation='None' name='[none:月均总消费:nk]' pivot='key' type='nominal' />
+            <column-instance column='[月均恋爱消费]' derivation='None' name='[none:月均恋爱消费:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Count' name='[rank:cnt:Number of Records:ok:3]' pivot='key' type='ordinal'>
+              <table-calc ordering-type='RowInPane' rank-options='Competition,Descending' type='Rank' />
+            </column-instance>
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_411516429141676037]' derivation='User' name='[usr:Calculation_411516429141676037:nk:2]' pivot='key' type='nominal'>
+              <table-calc ordering-type='RowInPane' />
+            </column-instance>
+            <column datatype='string' name='[月均总消费]' role='dimension' type='nominal' />
+            <column datatype='string' name='[月均恋爱消费]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <sort class='manual' column='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均总消费:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;600以下&quot;</bucket>
+              <bucket>&quot;600—1000&quot;</bucket>
+              <bucket>&quot;1000—1500&quot;</bucket>
+              <bucket>&quot;1500—2000&quot;</bucket>
+              <bucket>&quot;2000—2500&quot;</bucket>
+              <bucket>&quot;2500—3000&quot;</bucket>
+              <bucket>&quot;3000以上&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </sort>
+          <filter class='categorical' column='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均恋爱消费:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:月均恋爱消费:nk]' />
+              <groupfilter function='member' level='[none:月均恋爱消费:nk]' member='&quot;0&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[排除(月均总消费,月均恋爱消费)]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:月均总消费:nk]' />
+                <groupfilter function='level-members' level='[none:月均恋爱消费:nk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:月均总消费:nk]' member='&quot;2000—2500&quot;' />
+                <groupfilter function='member' level='[none:月均恋爱消费:nk]' member='&quot;700—1000&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均恋爱消费:nk]</column>
+            <column>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[排除(月均总消费,月均恋爱消费)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-weight' data-class='subtotal' scope='rows' value='bold' />
+            <format attr='width' field='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均恋爱消费:nk]' value='58' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-weight' data-class='subtotal' value='normal' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+          <style-rule element='field-labels-spanner'>
+            <format attr='font-weight' scope='rows' value='normal' />
+            <format attr='font-weight' scope='cols' value='bold' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' scope='cols' value='黑体' />
+            <format attr='font-size' scope='cols' value='10' />
+            <format attr='font-weight' value='normal' />
+            <format attr='font-family' field='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均总消费:nk]' value='黑体' />
+            <format attr='font-weight' field='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均总消费:nk]' value='bold' />
+            <format attr='font-size' field='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均总消费:nk]' value='11' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[usr:Calculation_411516429141676037:nk:2]' />
+              <text column='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均恋爱消费:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-orientation' value='0' />
+                <format attr='wrap' value='off' />
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='top' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-family' value='黑体' />
+                <format attr='font-size' value='10' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-range-field' value='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[rank:cnt:Number of Records:ok:3]' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-range-max' value='false' />
+                <format attr='mark-labels-range-scope' value='table' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='368' />
+                <format attr='maxheight' value='368' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[sum:Number of Records:qk]</rows>
+        <cols>([excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均总消费:nk] / ([excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[rank:cnt:Number of Records:ok:3] / [excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均恋爱消费:nk]))</cols>
+      </table>
+    </worksheet>
+    <worksheet name='工作表 1 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (数字图表) (3)' name='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)'>
+            <column caption='分区第一名' datatype='boolean' name='[Calculation_411516429141676037]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='RANK(COUNT([Number of Records]))=1'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[专业]' derivation='None' name='[none:专业:nk]' pivot='key' type='nominal' />
+            <column-instance column='[月均总消费]' derivation='None' name='[none:月均总消费:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Count' name='[rank:cnt:Number of Records:ok:3]' pivot='key' type='ordinal'>
+              <table-calc ordering-type='RowInPane' rank-options='Competition,Descending' type='Rank' />
+            </column-instance>
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_411516429141676037]' derivation='User' name='[usr:Calculation_411516429141676037:nk:2]' pivot='key' type='nominal'>
+              <table-calc ordering-type='RowInPane' />
+            </column-instance>
+            <column datatype='string' name='[专业]' role='dimension' type='nominal' />
+            <column datatype='string' name='[月均总消费]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[none:专业:nk]'>
+            <groupfilter function='member' level='[none:专业:nk]' member='&quot;理学类（自然科学）&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[none:专业:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-weight' data-class='subtotal' scope='rows' value='bold' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-weight' data-class='subtotal' value='normal' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+          <style-rule element='field-labels-spanner'>
+            <format attr='font-weight' scope='rows' value='normal' />
+            <format attr='font-weight' scope='cols' value='bold' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' scope='cols' value='黑体' />
+            <format attr='font-size' scope='cols' value='10' />
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[usr:Calculation_411516429141676037:nk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-orientation' value='0' />
+                <format attr='wrap' value='off' />
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='top' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-family' value='黑体' />
+                <format attr='font-size' value='10' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-range-field' value='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[rank:cnt:Number of Records:ok:3]' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-range-max' value='false' />
+                <format attr='mark-labels-range-scope' value='table' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='79' />
+                <format attr='maxwidth' value='79' />
+                <format attr='minheight' value='318' />
+                <format attr='maxheight' value='318' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[sum:Number of Records:qk]</rows>
+        <cols>([excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[rank:cnt:Number of Records:ok:3] / [excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[none:月均总消费:nk])</cols>
+      </table>
+    </worksheet>
+    <worksheet name='工作表 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (数字图表)' name='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[月均恋爱消费]' derivation='None' name='[none:月均恋爱消费:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[月均恋爱消费]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均恋爱消费:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:月均恋爱消费:nk]' member='&quot;100—200&quot;' />
+              <groupfilter function='member' level='[none:月均恋爱消费:nk]' member='&quot;1000以上&quot;' />
+              <groupfilter function='member' level='[none:月均恋爱消费:nk]' member='&quot;100以下&quot;' />
+              <groupfilter function='member' level='[none:月均恋爱消费:nk]' member='&quot;200—400&quot;' />
+              <groupfilter function='member' level='[none:月均恋爱消费:nk]' member='&quot;400—700&quot;' />
+              <groupfilter function='member' level='[none:月均恋爱消费:nk]' member='&quot;700—1000&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均恋爱消费:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='field-labels'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='11' />
+            <format attr='font-family' value='黑体' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[sum:Number of Records:qk]</rows>
+        <cols>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均恋爱消费:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='工作表 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (数字图表)' name='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[性别]' derivation='None' name='[none:性别:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[性别]' role='dimension' type='nominal' />
+            <column datatype='string' name='[是否记账 (组)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[是否记账]'>
+                <bin value='&quot;不记账&quot;'>
+                  <value>&quot;不记账&quot;</value>
+                  <value>&quot;想起来就记一下&quot;</value>
+                </bin>
+              </calculation>
+              <aliases>
+                <alias key='&quot;不记账&quot;' value='较少或者不记账' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[是否记账]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;记账&quot;' value='坚持记账' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[是否记账 (组)]' value='169' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='11' />
+            <format attr='font-family' value='黑体' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[是否记账 (组)]' value='10' />
+            <format attr='font-family' field='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[是否记账 (组)]' value='黑体' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:性别:nk]' />
+              <size column='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:性别:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[sum:Number of Records:qk]</rows>
+        <cols>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[是否记账 (组)]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='工作表 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (数字图表)' name='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja'>
+            <column-instance column='[月均休闲娱乐消费]' derivation='None' name='[none:月均休闲娱乐消费:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[专业 (组)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[专业]'>
+                <bin value='&quot;法学类&quot;'>
+                  <value>&quot;法学类&quot;</value>
+                  <value>&quot;管理类&quot;</value>
+                  <value>&quot;经济类&quot;</value>
+                  <value>&quot;理学类（自然科学）&quot;</value>
+                  <value>&quot;农学类&quot;</value>
+                  <value>&quot;师范类&quot;</value>
+                  <value>&quot;文化传播和文学类&quot;</value>
+                  <value>&quot;医学类&quot;</value>
+                  <value>&quot;艺术类&quot;</value>
+                  <value>&quot;语言类&quot;</value>
+                  <value>&quot;政治学类&quot;</value>
+                </bin>
+              </calculation>
+              <aliases>
+                <alias key='&quot;法学类&quot;' value='非工科' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[专业]' role='dimension' type='nominal' />
+            <column aggregation='CountD' datatype='string' name='[月均休闲娱乐消费]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <sort class='manual' column='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[专业 (组)]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;工科类&quot;</bucket>
+              <bucket>&quot;法学类&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </sort>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols>([excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[专业 (组)] / [excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均休闲娱乐消费:nk])</cols>
+      </table>
+    </worksheet>
+    <worksheet name='工作表 6'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='80'>
+    <window class='worksheet' maximized='true' name='工作表 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='174'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[usr:Calculation_411516429141676037:nk:2]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:专业:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:性别:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均休闲娱乐消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均基本生活消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均学习消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均形象类消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均总消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均恋爱消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[usr:Calculation_411516429135532035:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[usr:Calculation_411516429138685956:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[usr:Calculation_411516429141676037:nk:2]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[usr:Calculation_411516429141676037:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='工作表 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[:Measure Names]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:他人评价和意见):ok]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:价格:ok]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:厂商信誉:ok]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:后悔程度:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:品牌:ok]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:外观:ok]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:实用性:ok]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:心情:ok]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:时尚潮流:ok]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:是否记账:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均休闲娱乐消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均基本生活消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均学习消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均形象类消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均恋爱消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:服务:ok]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:质量:ok]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[专业 (组)]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='工作表 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:性别:nk]' type='size' />
+            <card pane-specification-id='0' param='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:性别:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:性别:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:是否记账:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[是否记账 (组)]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='工作表 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[none:月均休闲娱乐消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja].[专业 (组)]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='工作表 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[usr:Calculation_411516429141676037:nk:2]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[none:专业:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[none:性别:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[none:月均休闲娱乐消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[none:月均基本生活消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[none:月均学习消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[none:月均形象类消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[none:月均总消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[none:月均恋爱消费:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[usr:Calculation_411516429135532035:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[usr:Calculation_411516429138685956:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[usr:Calculation_411516429141676037:nk:2]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[usr:Calculation_411516429141676037:nk]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[专业 (组)]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='工作表 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[none:价格:ok]</field>
+            <field>[excel-direct.0cxvuc00gyvuu711aoqny1cpb8ja (复制 2)].[专业 (组)]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='工作表 1' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='工作表 2' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='工作表 3' width='192'>
+      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
+      1Cx/lGe3r+Tk/uN0Nu7DsegJzDfPcG0kwPG2fjatruF0Y2v2qhUiyybeFG+yU15SwPC1TpyV
+      lfhGE5SVuSguNOD1hzHbC8jNLUJLjWWzXiGyKqM5wOCV0xzqSLBtwxJMpgSRSJpoOIXJaCAe
+      j5JOR0mnDCSTSTweDx6Ph0Qika3ahcjYhAOQGOviN78/QGFhHteudzNr4SLOH2ngcsBJzYw8
+      io1+Dhw9TcmsuRiNRtxuN263+9YNs4WYDiY8CVZtxXzrlZdIpTUMlhxcxVVss/ej2gtwmi1s
+      3v4MnrEo7pKSbNYrRFZNOAAGs53yCvttjxWVVtz62eJwUe6YeGFCTAU5DyB0TQIgdE0CIHRN
+      AiB0TQIgdE0CIHRNAiB0TQIgdE0CIHRNAiB0TQIgdE0CIHRNAiB0TQIgdC2jAGipOI0NexmI
+      JYj7+3j3rTfYtecwkUSaq2cO8+bb73HdE85WrUJk3cRvkwq0nzrA3oPNvLxuPZGzh9Gq1lLU
+      9T7ne2q5eLaHrZvrOHiihVnb1mSrXvFHChzpJXZtcvuyfzgWxJ9M3fXytR3deCwDk1gR5G2d
+      hanY/rXLZRSAWUvrefBCNwAFlTX0fvAxwyY7TzrjdNjyyXMWk473ZrIKkaH4zSDRdu+krmPp
+      H/sHw0Em+27RufUVX78QGQbAarWifP7z+ROnWfnsd3B17qa5w0MiGSOdjpFOf9YU7/P5AKQp
+      XkwrWZsEl1aVc631NO29fipLKyhU/Xza1EJRVY00xYtpK6MRAGD19mewWkxYVzyJ5UY3aesC
+      KkoLWFD4NP3eCGUV5dmoU4hJkXEAXMXFn/+kUjFr9q3HbU43DzgzfXYhJpecBxC6JgEQuiYB
+      ELomARC6JgEQuiYBELomARC6JgEQuiYBELomARC6JgEQuiYBELp25wBoacKR/29bSMVjRONy
+      Lb+4v4x7NaimaaCluHjyEGNaLg/MfoDI4HVM5bXMLXXdtmw0GMRgd2BSwT86QhwzBa5cUrEQ
+      Y6EEeS4XJoMy3mqEuOfGHQHCo70cOdqMsbCKhxfX4O1p58pAnDL37dc3hzxd/M9Pfkp3NE6g
+      u4U3PzjEsf17uDES5sB7b3PkUANHznVPyQsRYiLGDYDVUUCx28xQTw83R+NUzprLgko7vQO+
+      25br6xvCkWNFAy40tlC7ag2PrH+cMnuI3piDLRtW0H+1fSpehxATMu4uUCIRwnNzmMHBXiJY
+      GLJFiQRhaaXttuXmLH6EKydbAQiFQ/i6r9N/8yJVKzZgs9hRDXYMhiTpdJp4PA5AOp2e5Jck
+      xN0bNwBmq5P8/DxSNguu/BLiAQ+VVRUkozHANt6fUFiYT/6C5bjMNzk/kiAe8REMedDUXDRN
+      u9UMr2napL0YIf5Y4wZAMZhZsPxh4rEYqgqxZCU5dgvRaBwN+PKUNr9kBjZVpXL9Rhr27aZT
+      sbNpy2z6U13sPdLGsnVbMBgM5ObmAhCLxabgZQlxdxTtKz6SvcM9BCImyspLuHn1LJbi+ZTm
+      WzNaocfjwe12Z/Qc4u6N/LadyNnhe13GlCv6/mIs1XlfuYyiKMr4TfFaggvNp7k5FqO0MJdw
+      ZIxA0EjdbPNk1CrEPTP+iTDFiGtGBVWlhcT8Hjqvd2OxGAhH4lNcnhCT6w5nghVU1YBBUTFb
+      bZS6XaTiUYZG/VNbnRCT7I7fC2S32bDZbPitVtwzimlruUh5SeFU1ibEpLtjAFz5+aSSSXJy
+      cjCZTNQunIsiVzSI+8wdJsEprredo98fxWxzsbC2Bu/gVS4O5bLl0QVTXKIQk+cOcwAVxZZL
+      7YIFOB1mzCYTM+fOo8Cc8TcpCjGtjP+OVhTMVjsul5P+rg7aLoTRUn7GEjIHEPeXO36k5+fn
+      o2kKNbVLSKdTDA95mF1bNpW1CTHpxg9AOkFPx3nMZfOI9nWi2nOJjA7j1+zUVslZXHH/uMMu
+      kJE5ix8GBbxKJfmFhSjUTHFpQky+O84BvjjiWVBYeNvvQtxPvvawjiIH/8V9TL4VQuhaZjfK
+      1lK0NTbhiSc/+z0V58j+w8S0NH3tp3n3/Qb6/XIBnZi+MgrAlVP7eP2NBnyf3yS5/+JR3jvY
+      SjQeYt/xNh6uK+LI0ZasFCrEZMgoABUL17JqYSkA6cQozd0qtWVmUskAqq2AwvwZJCOerBQq
+      xGTIKAB2h+PW0aG2w4dwzaoiEokQCCdIpZJoWhJNU0gmk3g8Hjwej9woW0wrWZsE51U+gDp6
+      E38gSCBsIkfzce5SO3kzquVG2WLa+j9g5mAhR1on3gAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='84' name='工作表 4' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='工作表 1 (2)' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+    <thumbnail height='144' name='工作表 6' width='174'>
+      iVBORw0KGgoAAAANSUhEUgAAAK4AAACQCAYAAACRfFAzAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAABmUlEQVR4nO3SQQ0AIBDAMMC/58MDH7KkVbDH9szMgpjzOwBeGJck45JkXJKMS5JxSTIu
+      ScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45Jk
+      XJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYl
+      ybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKM
+      S5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgk
+      GZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5Jx
+      STIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck
+      45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuSRePYgUc7kJNEQAAAABJRU5ErkJg
+      gg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
